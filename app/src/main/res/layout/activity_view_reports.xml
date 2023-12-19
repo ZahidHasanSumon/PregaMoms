@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zh.ViewReports">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise"
+            android:fontFamily="@font/poppins_regular"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@color/colorPrimary"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/exercise11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Food"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:background="@color/colorPrimary"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/food11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:background="@color/colorPrimary"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/symptoms11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

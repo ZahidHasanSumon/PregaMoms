@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "354888355293",
+    "firebase_url": "https://pregamoms-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pregamoms",
+    "storage_bucket": "pregamoms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354888355293:android:248c314a28c8013ef37a34",
+        "android_client_info": {
+          "package_name": "com.zh.pregamoms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354888355293-kedc0mn62vds4l2idjdl6b7cbk570cch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGmFRX68V4XbUguy7jopFdDfiKWu5OToY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354888355293-kedc0mn62vds4l2idjdl6b7cbk570cch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

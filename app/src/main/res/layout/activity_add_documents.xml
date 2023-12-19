@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".AddDocuments">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/hback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Documents"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="24sp"
+            android:textColor="@color/greenv1"
+            android:drawableStart="@drawable/back_arrow"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="20dp"/>
+
+
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/titleD"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_editext"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="Title"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/round_editext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="10dp"
+        android:textColor="@color/greenv1"
+        android:src="@drawable/ic_baseline_add_photo_alternate_24"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Save As"
+        android:background="@drawable/round_editext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/greenv1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="5dp"
+        android:weightSum="1"
+        android:id="@+id/radioGroup"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prescription"
+            android:id="@+id/radioButton"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reports"
+            android:id="@+id/radioButton2"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"/>
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:background="@drawable/round_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_regular"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/home_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="70dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/hback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="24sp"
+            android:textColor="@color/greenv1"
+            android:drawableStart="@drawable/back_arrow"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="20dp"/>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:background="@drawable/round_editext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/greenv1"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:background="@drawable/round_editext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/greenv1"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:background="@drawable/round_editext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/poppins_regular"
+        android:ems="10"
+        android:padding="5dp"
+        android:textColor="@color/greenv1"/>
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60"
+        android:inputType="number"
+        android:background="@drawable/round_editext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/greenv1"/>
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pregnancy Week"
+        android:background="@drawable/round_editext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/poppins_regular"
+        android:ems="10"
+        android:padding="5dp"
+        android:textColor="@color/greenv1"/>
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:background="@drawable/round_editext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textColor="@color/greenv1"/>
+
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:background="@drawable/round_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_regular"/>
+
+
+</LinearLayout>

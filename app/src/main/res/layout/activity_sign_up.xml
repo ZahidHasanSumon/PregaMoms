@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/colorPrimary">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:background="@drawable/round_editext"
+        android:fontFamily="@font/poppins_regular"/>
+    <EditText
+        android:id="@+id/editText"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Username"
+        android:background="@drawable/round_editext"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Password"
+        android:background="@drawable/round_editext"
+        android:padding="10dp"
+        android:fontFamily="@font/poppins_regular"/>
+    <EditText
+        android:id="@+id/editTextTextPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Retype Password"
+        android:background="@drawable/round_editext"
+        android:padding="10dp"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Next"
+        android:background="@drawable/round_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_regular"/>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpSecondPage"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/colorPrimary">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/yourname"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Your Name"
+        android:background="@drawable/round_editext"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:background="@drawable/round_editext"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="DOB"/>
+
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Your Weight"
+        android:background="@drawable/round_editext"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <EditText
+        android:id="@+id/pregweek"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Pregnancy Week"
+        android:background="@drawable/round_editext"
+        android:fontFamily="@font/poppins_regular"/>
+
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Save and Continue to the app"
+        android:background="@drawable/round_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_regular"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

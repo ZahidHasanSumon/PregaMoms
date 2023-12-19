@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyTracker"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/greenv1"
+        android:outlineSpotShadowColor="@color/white"
+        android:outlineAmbientShadowColor="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="180dp"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="5dp"
+                android:outlineAmbientShadowColor="@color/white"
+                android:elevation="5dp"
+                app:cardBackgroundColor="@color/colorPrimary">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Food Habit"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10dp"/>
+                    <Button
+                        android:id="@+id/foodbutton"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Add"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"/>
+                    <Button
+                        android:id="@+id/foodview"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="View"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:layout_marginTop="10dp"/>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="180dp"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="5dp"
+                android:outlineAmbientShadowColor="@color/white"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/colorPrimary">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Symptoms / Day"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10dp"/>
+                    <Button
+                        android:id="@+id/symbutton"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Add"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"/>
+                    <Button
+                        android:id="@+id/symview"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="View"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:layout_marginTop="10dp"/>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="190dp"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="5dp"
+                android:outlineAmbientShadowColor="@color/white"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Weight / Week"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Current Week"
+                        android:fontFamily="@font/poppins_regular"/>
+                    <TextView
+                        android:id="@+id/cweight"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_regular"
+                        android:background="@drawable/round_editext"
+                        android:gravity="center"/>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Previous Week"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:id="@+id/pweight"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_regular"
+                        android:background="@drawable/round_editext"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
