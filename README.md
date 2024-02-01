@@ -1,7 +1,7 @@
 # PregaMoms App Android
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Dart](https://img.shields.io/badge/java-100%25-brightgreen)
-![Flutter](https://img.shields.io/badge/Java-Android%20App-blue)
+![Flutter](https://img.shields.io/badge/Native-Android%20App-blue)
 
 
 
